@@ -1,0 +1,2 @@
+pdftools_sdk==1.17.0
+openai

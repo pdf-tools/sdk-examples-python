@@ -100,7 +100,7 @@ if __name__ == "__main__":
         # By default, a test license key is active. In this case, a watermark is added to the output. 
         # If you have a license key, please uncomment the following call and set the license key.
         # from pdftools_sdk.sdk import Sdk
-        # Sdk.initialize("insert-license-key-here")
+        # Sdk.initialize("<-- insert license key -->")
 
         images_to_accessible_pdf(image_paths, output_file_path)
 

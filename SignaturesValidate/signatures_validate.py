@@ -11,7 +11,7 @@ Validate the signatures contained in an input document
 import os
 import hashlib
 from pdftools_sdk.pdf import Document, DocumentSignature
-from pdftools_sdk.signature_validation import *
+from pdftools_sdk.signature_validation import Certificate, CmsSignatureContent, CustomTrustList, DataSource, Indication, SignatureContent, SignatureSelector, SubIndication, TimeSource, TimeStampContent, UnsupportedSignatureContent, Validator
 from pdftools_sdk.signature_validation.profiles import Default, RevocationCheckPolicy
 
 import argparse, io
@@ -175,7 +175,7 @@ if __name__ == "__main__":
         # By default, a test license key is active. In this case, a watermark is added to the output. 
         # If you have a license key, please uncomment the following call and set the license key.
         # from pdftools_sdk.sdk import Sdk
-        # Sdk.initialize("insert-license-key-here")
+        # Sdk.initialize("<-- insert license key -->")
 
         # Optional: Set your proxy configuration
         # Sdk.set_proxy("http://myproxy:8080")

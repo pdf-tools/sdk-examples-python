@@ -29,16 +29,17 @@ Follow these steps to install the required packages and run the sample.
 
 ### Installation
 
-Install the Pdftools SDK package by running:
+We recommend installing into a virtual environment. On some Linux distributions (for example Ubuntu 23.04 and later), the system Python is externally managed and `pip install` will fail outside a venv.
+
+Create and activate a virtual environment, then install the pinned dependencies from `requirements.txt`:
 
 ```bash
-pip install pdftools_sdk
+python -m venv .venv
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-To install the OpenAI package for Python, run:
-```
-pip install openai
-```
+This installs Pdftools SDK at the version this sample was tested against, together with the OpenAI Python package.
 
 ### Usage
 
