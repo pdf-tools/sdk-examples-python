@@ -48,7 +48,7 @@ if __name__ == "__main__":
         # By default, a test license key is active. In this case, a watermark is added to the output. 
         # If you have a license key, please uncomment the following call and set the license key.
         # from pdftools_sdk.sdk import Sdk
-        # Sdk.initialize("insert-license-key-here")
+        # Sdk.initialize("<-- insert license key -->")
 
         validation_result = validate(input_file_path)
         # Report the validation result
