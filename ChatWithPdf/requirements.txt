@@ -1,2 +1,2 @@
-pdftools_sdk==1.18.0
+pdftools_sdk==1.19.0
 openai
