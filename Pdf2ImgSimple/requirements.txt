@@ -1,1 +1,1 @@
-pdftools_sdk==1.20.0
+pdftools_sdk==1.20.1
